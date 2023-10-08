@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns:hk="http://tempuri.org/PurchaseOrderSchema.xsd">
+
+    <xs:element name="clientes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cliente" type="clienteType"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:complexType name="clienteType">    
+        <xs:sequence>
+            <xs:element name="persona" type="personaType"></xs:element>
+            <xs:element name="datosPersona" type="datosPersonaType"></xs:element>
+            <xs:element name="consumido" type="consumidoType"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+
+
+
+    <xs:complexType name="consumidoType">
+        <xs:sequence>
+            <xs:element name="descripcion">
+                <xs:complexType mixed="true">
+                    <xs:sequence>
+                        <xs:element name="producto" type="xs:string" maxOccurs="unbounded"></xs:element>
+                        <xs:element name="precio">
+                            <xs:complexType>
+                                <xs:simpleContent>
+                                    <xs:extension base="xs:decimal">
+
+                                        <xs:attribute name="moneda" type="xs:string" fixed="euro" use="required"></xs:attribute><!-- Si se pone default="euro" da error-->
+                                        <xs:attribute name="propina" use="required">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Si"></xs:enumeration>
+                                                    <xs:enumeration value="No"></xs:enumeration>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:attribute>
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+
+    </xs:complexType>
+
+
+    <xs:group name="nombreCompleto">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="apellido1" type="xs:string"></xs:element>
+            <xs:element name="apellido2" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:group>
+
+
+    <xs:complexType name="personaType">
+        <xs:sequence>
+            <xs:element name="DNI">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[0-9]{8}[A-Z]{1}"></xs:pattern>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:group ref="nombreCompleto"></xs:group>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:complexType name="datosPersonaType">
+
+        <xs:sequence>
+
+            <xs:element name="edad">
+            <xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="edadRestriccion">
+							<xs:attribute name="fechaNacimiento" type="xs:date" />
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+
+            </xs:element>
+
+
+            <xs:element name="telefono">
+                <xs:simpleType>
+                    <xs:restriction base="xs:int">
+                        <xs:pattern value="[0-9]{9}"></xs:pattern>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="direccion" type="xs:string"></xs:element>
+
+            <xs:element name="numero" type="xs:int"></xs:element>
+
+            <xs:element name="piso">
+                <xs:simpleType>
+                    <xs:restriction base="xs:int">
+                        <xs:minInclusive value="0"></xs:minInclusive>
+                        <xs:maxInclusive value="100"></xs:maxInclusive>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="letra">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[A-Z]{1}"></xs:pattern>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="codigo_postal">
+                <xs:simpleType>
+                    <xs:restriction base="xs:int">
+                        <xs:pattern value="[0-9]{5}"></xs:pattern>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="ciudad" type="xs:string"></xs:element>
+            <xs:element name="pais" type="xs:string"></xs:element>
+
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="edadRestriccion">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="0"></xs:minInclusive>
+            <xs:maxInclusive value="99"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

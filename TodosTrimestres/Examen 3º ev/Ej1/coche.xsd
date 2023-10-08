@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="concesionario">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cocheEnVenta" type="infoCocheEnVenta" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:complexType name="infoCocheEnVenta">
+        <xs:sequence>
+            <xs:element name="coche" type="infoCocheAmpliada" />
+            <xs:element name="condiciones" type="infoCondiciones" />
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:complexType name="infoCoche">
+        <xs:sequence>
+            <xs:element name="marca" type="xs:string" />
+            <xs:element name="modelo" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:complexType name="infoCocheAmpliada">
+        <xs:complexContent>
+            <xs:extension base="infoCoche">
+                <xs:sequence>
+                    <xs:element name="acabado">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="confort" />
+                                <xs:enumeration value="deportivo" />
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="extras" type="xs:string" minOccurs="2" maxOccurs="10" />
+                </xs:sequence>
+
+                <xs:attribute name="atributo_extendido" type="xs:int"></xs:attribute>
+
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+
+    <xs:complexType name="infoCondiciones">
+        <xs:sequence>
+            <xs:element name="precio" type="xs:double"></xs:element>
+            <xs:element name="financiacion">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[0-9]{1}"></xs:pattern>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+
+</xs:schema>

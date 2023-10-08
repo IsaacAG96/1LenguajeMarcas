@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>  
+    <title>Práctica de formularios 2</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form action="http://servidorwebclara.ga" method="post">
+    <p><h1>Cuestionario de personal</h1>
+    </p>
+
+    <p><h3>Nombre</h3> 
+        <input type="text" name="usuario" size="75" maxlength="12">
+    </p>
+
+<p>Sexo:
+    <input type="radio" name="sexo" value="masculino">Masculino
+    <input type="radio" name="sexo" value="femenino">Femenino
+</p>
+
+<p><h3>Numero de miembros de la familia</h3>
+    <input type="text" name="miembros" size="20" maxlength="3">
+</p>
+
+<p><h3>Idiomas que conoces:</h3>
+    <input type="checkbox" name="idioma1" value="Francés">Francés<br>
+    <input type="checkbox" nmae="idioma2" value="Inglés">Inglés
+</p>
+
+<p><h3>Otros:</h3>
+    <textarea type="text" name="otros" rows="10"  cols="50" size="100" maxlength="1000"></textarea>
+</p>
+
+<p>
+    <input type="submit" value="ENVIAR DATOS">
+    <input type="reset" value="VOLVER A COMENZAR">
+
+
+
+</p>
+
+
+
+</form>
+</body>
+</html>

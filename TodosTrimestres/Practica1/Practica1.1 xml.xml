@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texto>Pedido para 
+    <destinatario_del_pedido>
+        <nombre>Maria</nombre>
+        <apellido> Cocera</apellido>
+    </destinatario_del_pedido>
+El pedido se compone de
+    <articulo_pedido>
+    <pedido> Motocicleta</pedido>
+    <modelo> A2022</modelo>
+</articulo_pedido>
+    . 
+A entregar en la
+<datos_envio>
+    <direccion_de_entrega>
+        <calle>calle Barco 4</calle>,   
+        <piso> tercer piso</piso>,    
+        <portal>letra A</portal>,
+    </direccion_de_entrega>el 
+    <fecha_de_entrega>día 19-5-2000</fecha_de_entrega>. 
+</datos_envio>
+
+</texto>

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>  
+    <title>Práctica de formularios 1</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form action="http://servidorwebclara.ga"  method="post"> 
+    Escriba su usuario: 
+    <input  type="text"  name="usuario"  size="10"  maxlength="12"> 
+    <p>  
+            <input  type="submit"  value="Enviar datos"> &nbsp;&nbsp;
+<input  type="reset"  value="Borrar datos"></p>
+Escriba su contraseña: 
+<p><input  type="password"  name="clave"  size="10"  maxlength="12"> </p>
+<p><textarea  name="Comentarios"  rows="6"  cols="40"> 
+</textarea> </p>
+<p>¿Cómo contacto con nosotros? 
+    <select  name="Contacto"> 
+    <option  value=”casualidad”>Por casualidad </option> 
+    <option  value=”periodico”>Por el periódico </option> 
+    <option  value=”buscadores”>En los buscadores </option> 
+    <option  value=”comentario”>Me lo comentaron </option>
+</select > </p>
+<p><input  type="checkbox"  name="Lista"> 
+    Sí, deseo recibir información acerca de sus productos. </p>
+
+
+
+</p>
+<p>¿Cuál es su sistema operativo preferido? 
+    <br/> 
+    <input  type="radio"  name="SistemaOperativo"  value="NT"  checked>Windows
+    <input  type ="radio"  name="SistemaOperativo"  value="Mac">Mac OS
+    <input  type ="radio"  name="SistemaOperativo"  value="Unix">Unix </p>
+    </form> 
+</body>
+</html>

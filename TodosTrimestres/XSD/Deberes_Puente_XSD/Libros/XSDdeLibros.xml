@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="libro">
+        <xs:complexType>   
+                <xs:sequence>
+                    <xs:element name="titulo" type="xs:string"  maxOccurs="1"></xs:element>
+                    <xs:element name="autores" type="xs:string"  minOccurs="1" maxOccurs="10"></xs:element>
+                    <xs:element name="editorial" type="xs:string" ></xs:element>
+                </xs:sequence>
+                 <xs:attribute name="precio" type="xs:double"></xs:attribute><!-- Va despues de la secuencia,dentro del elemento-->
+        </xs:complexType>
+    </xs:element>
+   
+</xs:schema>

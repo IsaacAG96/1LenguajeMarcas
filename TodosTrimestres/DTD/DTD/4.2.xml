@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventores [
+  <!ELEMENT inventores (inventor*)>
+  <!ELEMENT inventor EMPTY>
+  <!ATTLIST inventor nombre NMTOKENS #IMPLIED>
+  <!ATTLIST inventor invento CDATA #REQUIRED>
+]>
+<inventores>
+  <inventor nombre="Robert Adler" invento="Mando a distancia" />
+  <inventor nombre=" Laszlo Josef Biro" invento="Boligrafo" />
+  <inventor nombre="Josephine Garis Cochran" invento="Lavaplatos" />
+  <inventor invento="Fuego" />
+</inventores>
+
+<!--Hay que especificar que inventores contiene inventor*,
+el orden de los atributos arriba debe ser primero nombre y luego invento.
+El nombre debe ser #IMPLIED,para que no sea obligatorio que venga puesto,
+nombre debe ser NMTOKENS en lugar de ID ya que es una "frase" -->

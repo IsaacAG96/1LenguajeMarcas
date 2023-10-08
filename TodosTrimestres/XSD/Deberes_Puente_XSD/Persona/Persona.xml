@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XSDdePersona.xml">
+
+    <nombre>Paco</nombre>
+    <apellido> Germela</apellido>
+
+    <infoPersona>
+        <direccion>Calle falsa</direccion>
+        <ciudad>Ciudad de pega</ciudad>
+        <pais>Pais de corcho</pais>
+    </infoPersona>
+</persona>

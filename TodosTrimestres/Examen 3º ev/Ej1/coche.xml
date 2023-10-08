@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="coche.xsd">
+
+    <cocheEnVenta>
+        <coche>
+            <marca>peugeot</marca>
+            <modelo>con ruedas</modelo>
+            <acabado>deportivo</acabado>
+            <extras>aire acondicionado</extras>
+            <extras>reposavasos</extras>
+            <extras>calefaccion</extras>
+
+        </coche>
+
+        <condiciones>
+            <precio>56457.25</precio>
+            <financiacion>9</financiacion>
+        </condiciones>
+    </cocheEnVenta>
+</concesionario>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<pelicula num_pelicula="1">
+
+    <nombre>AQUELLAS JUERGAS UNIVERSITARIAS</nombre>
+
+    <datos_pelicula>
+        <titulo_original>Old School</titulo_original>
+        <pais_origen>EEUU<pais_origen>
+        <duracion unidad_de_medida="minutos">93</duracion>
+    </datos_pelicula>2
+
+    <plantilla>
+        <director>Todd Phillips</director>
+        <interpretes>
+            <interprete num_interprete="1">Will Ferrell</interprete>
+            <interprete num_interprete="2">Luke Wilson</interprete>
+            <interprete num_interprete="3">Vince Vaughn</interprete>
+            <interprete num_interprete="4">Jeremy Piven</interprete>
+            <interprete num_interprete="5">Juliette Lewis</interprete>
+            <interprete num_interprete="6">Sean William Scott</interprete>
+        </interpretes>  
+    </plantilla>  
+
+    <resumen>
+    Mitch, Frank y Beanie son tres amigos treintañeros cuyas vidas no son exactamente lo que
+    esperaban. Mitch tiene una novia ninfómana que se mete en la cama con el primero que agarra.
+    Frank se ha casado y su matrimonio nada tiene que ver con las juergas salvajes que organizaban
+    años atrás. Y Beanie es un padre de familia que se muere por recuperar su alocada juventud. Pero
+    las cosas cambian cuando Beanie sugiere que creen su propia fraternidad, en la nueva casa que
+    Mitch tiene junto al campus de la universidad. Una ocasión para revivir tiempos gloriosos, hacer
+    nuevos amigos y de volver a sus viejas, salvajes y desmadradas juergas de estudiantes. 
+    </resumen>   
+
+    <url>http://www.oldschool-themovie.com/</url>  
+
+    <genero>Comedia</genero>
+    
+    <edad_recomendada>Mayores de 16 años</edad_recomendada>
+       
+</pelicula>

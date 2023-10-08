@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="practicaExamen.xsd">
+    <cliente>
+
+        <persona>
+            <DNI>12345678A</DNI>
+            <nombre>Jose</nombre>
+            <apellido1>Perrin</apellido1>
+            <apellido2>Coulat</apellido2>
+        </persona>
+
+        <datosPersona>
+            <edad fechaNacimiento="1998-05-01">28</edad>
+            <telefono>123456789</telefono>
+            <direccion>calle holita</direccion>
+            <numero>14</numero>
+            <piso>53</piso>
+            <letra>H</letra>
+            <codigo_postal>12345</codigo_postal>
+            <ciudad>Paris</ciudad>
+            <pais>Japon</pais>
+        </datosPersona>
+
+        <consumido>
+            <descripcion>
+                <producto>Leche</producto>
+                <producto>Colacao</producto>
+                <precio moneda="euro" propina="No"> 32</precio>
+            </descripcion>
+        </consumido>
+
+    </cliente>
+</clientes>

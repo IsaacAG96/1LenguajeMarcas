@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ligaDeFutbol [
+    <!ELEMENT ligaDeFutbol (partido*)>
+    <!ELEMENT partido EMPTY>
+    <!ATTLIST partido nombre_local NMTOKENS #REQUIRED >
+    <!ATTLIST partido goles_local NMTOKEN #REQUIRED>
+    <!ATTLIST partido nombre_visitante NMTOKENS #REQUIRED>
+    <!ATTLIST partido goles_visitante NMTOKEN #REQUIRED>
+]>
+<ligaDeFutbol>
+    <partido nombre_local="Nottingham Presa" goles_local="0" nombre_visitante="Inter de Mitente"
+        goles_visitante="1" />
+    <partido nombre_local="Vodka Juniors" goles_local="3" nombre_visitante="Sparta da Risa"
+        goles_visitante="3" />
+    <partido nombre_local="Water de Múnich" goles_local="4" nombre_visitante="Esteaua es del grifo"
+        goles_visitante="2" />
+</ligaDeFutbol>

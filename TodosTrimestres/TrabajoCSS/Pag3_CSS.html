@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<HTML lang="es">
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<TITLE>Seleccion Pj</TITLE>
+<link rel="stylesheet" href="trabajo_css.css" type="text/css">
+</HEAD>
+
+
+<BODY>
+
+
+    <div class="encabezado">
+
+        <h1
+            style="color: #F0F3F4;background-color: black;padding: 50px; border:groove;border-color: grey;border-width: 60px;">
+            <u>Creación de Pj</u>
+        </h1>
+
+    </div>
+    <table style="border-style: groove;left: 100px" class="menu">
+        <tr>
+            <td><a href="F:/Trabajo+CSS/Inicio_CSS.html">Inicio</a></td>
+        </tr>
+        <tr>
+            <td><a href="F:/Trabajo+CSS/Pag4_CSS.html">Horda</a></td>
+        </tr>
+        <tr>
+            <td><a href="F:/Trabajo+CSS/Pag5_CSS.html">Alianza</a></td>
+        </tr>
+        <tr>
+            <td><a href="F:/Trabajo+CSS/Pag1_CSS.html">Clases</a></td>
+        </tr>
+        <tr>
+            <td><a href="F:/Trabajo+CSS/Pag3_CSS.html">Creación del Personaje</a></td>
+        </tr>
+        <tr>
+            <td><a href="F:/Trabajo+CSS/Pag2_CSS.html">Expansiones</a></td>
+        </tr>
+        <tr>
+            <td><a href="F:/Trabajo+CSS/CV_CSS.html">CV</a></td>
+        </tr>
+        <tr>
+            <td><a href="F:/Trabajo+CSS/Aficiones_CSS.html">Aficiones</a></td>
+        </tr>
+    </table>
+    <form action="https://www.w3schools.com//action_page.php" method="Post">
+        <fieldset style="color: #07042c;">
+
+            <legend><b>Datos</b>
+            </legend>
+            <fieldset>
+                <legend style="text-align: center;">
+                    Información de la cuenta
+                </legend>
+
+                <p style="text-align: center;">Cuenta:<br><input type="text" name="cuenta"
+                        placeholder="Introduce nombre de cuenta">
+                </p>
+                <p style="text-align: center;">Contraseña:<br><input type="text" name="contraseña"
+                        placeholder="Introduce una contraseña"></p>
+
+
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Creación Personaje
+                </legend>
+
+                <p>Nombre del Personaje:&nbsp<input type="text" name="nomprePJ"
+                        placeholder="Introduce un nombre para Pj"></p>
+                <p>
+                    Raza:&nbsp <select name="raza">
+                        <option>Ninguna seleccionada
+                        </option>
+
+                        <optgroup label="Alianza">
+                            <option>Humano
+                            </option>
+                            <option>Enano
+                            </option>
+                            <option>Elfo de la Noche
+                            </option>
+                            <option>Gnomo
+                            </option>
+                            <option>Draenei
+                            </option>
+                            <option>Huargen
+                            </option>
+                            <option>Pandaren
+                            </option>
+                        </optgroup>
+
+                        <optgroup label="Horda">
+                            <option>Orco
+                            </option>
+                            <option>No-Muerto
+                            </option>
+                            <option>Tauren
+                            </option>
+                            <option>Trol
+                            </option>
+                            <option>Elfo de Sangre
+                            </option>
+                            <option>Goblin
+                            </option>
+                            <option>Pandaren
+                            </option>
+                        </optgroup>
+
+                    </select>
+                <p>
+                    Clase:&nbsp <select name="clase">
+                        <option>Ninguna seleccionada
+                        </option>
+                        <optgroup label="Guerrero">
+                            <option>Armas
+                            </option>
+                            <option>Furia
+                            </option>
+                            <option>Protección
+                            </option>
+                        </optgroup>
+
+                        <optgroup label="Cazador">
+                            <option>Bestias
+                            </option>
+                            <option>Puntería
+                            </option>
+                            <option>Supervivencia
+                            </option>
+                        </optgroup>
+
+                        <optgroup label="Mago">
+                            <option>Arcano
+                            </option>
+                            <option>Fuego
+                            </option>
+                            <option>Escarcha
+                            </option>
+
+                        </optgroup>
+
+                        <optgroup label="Picaro">
+                            <option>Asesinato
+                            </option>
+                            <option>Forajido
+                            </option>
+                            <option>Sutileza
+                            </option>
+                        </optgroup>
+
+                        <optgroup label="Sacerdote">
+                            <option>Disciplina
+                            </option>
+                            <option>Sagrado
+                            </option>
+                            <option>Sombra
+                            </option>
+                        </optgroup>
+
+                        <optgroup label="Brujo">
+                            <option>Aflicción
+                            </option>
+                            <option>Demonología
+                            </option>
+                            <option>Destrucción
+                            </option>
+                        </optgroup>
+
+                        <optgroup label="Paladin">
+                            <option>Sagrado
+                            </option>
+                            <option>Protección
+                            </option>
+                            <option>Represión
+                            </option>
+                        </optgroup>
+
+                        <optgroup label="Druida">
+                            <option>Equilibrio
+                            </option>
+                            <option>Feral
+                            </option>
+                            <option>Guardián
+                            </option>
+                            <option>Restauración
+                            </option>
+                        </optgroup>
+
+                        <optgroup label="Chamán">
+                            <option>Elemental
+                            </option>
+                            <option>Mejora
+                            </option>
+                            <option>Restauración
+                            </option>
+                        </optgroup>
+
+                        <optgroup label="Monje">
+                            <option>Maestro Cervecero
+                            </option>
+                            <option>Tejedor de Niebla
+                            </option>
+                            <option>Viajero del Viento
+                            </option>
+                        </optgroup>
+
+                        <optgroup label="Cazador de Demonios">
+                            <option>Devastación
+                            </option>
+                            <option>Venganza
+                            </option>
+                        </optgroup>
+
+                        <optgroup label="Caballero de la Muerte">
+                            <option>Sangre
+                            </option>
+                            <option>Escarcha
+                            </option>
+                            <option>Profano
+                            </option>
+                        </optgroup>
+
+                    </select><br><br>
+
+
+
+                    <textarea name="historia" size="50" cols="70" rows="6"
+                        placeholder="Escribe una breve historia de tu Pj"></textarea><br>
+
+                    Adjunta una imagen de tu Pj:&nbsp;<br><input type="file" name="foto">
+            </fieldset>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+            </p>
+
+        </fieldset>
+    </form>
+
+    <footer>
+        <img class="footer_img" src="Footer_WOW.JPG" alt="Not Found">
+    </footer>
+</BODY>
+
+
+
+</HTML>

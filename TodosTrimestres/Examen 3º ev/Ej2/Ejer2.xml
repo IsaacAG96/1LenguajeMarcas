@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Ejer2.xsd">
+    <alumno numero="1">
+        <nombre>Manuel</nombre>
+        <apellido1>Garcia</apellido1>
+        <apellido2>Garcia</apellido2>
+    </alumno>
+
+    <alumno numero="2">
+        <nombre>Maria</nombre>
+        <apellido1>Diaz</apellido1>
+        <apellido2>Diaz</apellido2>
+    </alumno>
+
+    <alumno numero="3">
+        <nombre>Pedro</nombre>
+        <apellido1>Garcia</apellido1>
+        <apellido2>Diaz</apellido2>
+    </alumno>
+</alumnos>

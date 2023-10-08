@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <title>Práctica de formularios 10</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <form>
+
+        <fieldset>
+            <legend><b>Datos del formulario</b></legend>
+            <fieldset>
+                <legend>
+                    <font color="blue">Información del usuario
+                </legend>
+                </font>
+                <p>Usuario<br><input type="text" name="usuario"></p>
+                <p>Clave<br><input type="text" name="clave"></p>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    <font color="blue">Datos personales
+                </legend>
+                </font>
+
+                <table bordercolor="#B5B2B2" align="left" border="0">
+
+
+
+                    <td>
+                        <p>Hombre</p>
+                        <p>Mujer</p>
+                    </td>
+
+                    <td>
+                        <p><input type="radio" name="sexo"></p>
+                        <p><input type="radio" name="sexo"></p>
+
+                    </td>
+
+
+
+                    <td>
+                        <p>Menos de 20 años</p>
+                        <p>De 20 a 34 años</p>
+                        <p>De 35 a 65 años</p>
+                        <p>Mas de 65</p>
+
+
+                    </td>
+                    <td>
+                        <p><input type="radio" name="edad">
+
+                        </p>
+                        <p><input type="radio" name="edad">
+                        </p>
+                        <p><input type="radio" name="edad">
+                        </p>
+                        <p><input type="radio" name="edad">
+                        </p>
+
+
+                    </td>
+
+                    <td>
+                        <p>Posee vivienda propia
+                        </p>
+                        <p>Trabaja
+                        </p>
+                        <p> Sabe jugar al mus
+                        </p>
+
+                    </td>
+
+                    <td>
+
+                        <p>
+                            <input type="checkbox" name="trabajo">
+
+                        </p>
+                        <p><input type="checkbox" name="trabajo">
+
+                        </p>
+                        <p><input type="checkbox" name="mus">
+
+                        </p>
+                    </td>
+
+
+                    <td>
+                        <textarea name="comentarios" size="50" cols="70" rows="6"
+                            placeholder="Ponga aqui sus comentarios"></textarea>
+
+                    </td>
+
+
+
+
+
+
+                </table><br><br><br><br><br><br><br><br><br>
+                <p>
+                    Pais &nbsp <select name="pais">
+                        <optgroup label="Europa">
+                            <option>España
+                            </option>
+                            <option>Francia
+                            </option>
+                            <option>Alemania
+                            </option>
+                            <option>Portugal
+                            </option>
+                            <option>Italia
+                            </option>
+                            <option>Holanda
+                            </option>
+                        </optgroup>
+                        <optgroup label="Asia">
+                            <option>Japón
+                            </option>
+                            <option>China
+                            </option>
+                            <option>India
+                            </option>
+
+
+
+                        </optgroup>
+
+                    </select>&nbsp
+                    Color favorito &nbsp<select name="color">
+
+                        <option>AMARILLO
+                        </option>
+                        <option>ROJO
+                        </option>
+                        <option>AZUL
+                        </option>
+                        <option>VERDE
+                        </option>
+                    </select>&nbsp
+                    Aqui puede subir una foto &nbsp <input type="text" name="nombrefoto"><input type="file" name="foto">
+                </p>
+
+
+
+            </fieldset>
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="Resetear">
+                <input type="button" value="Nada">
+            </p>
+
+        </fieldset>
+    </form>
+
+
+
+</body>
+
+</html>

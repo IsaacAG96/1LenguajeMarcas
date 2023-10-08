@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vehiculos [
+    <!ELEMENT vehiculos (vehiculo)*>
+    <!ELEMENT vehiculo (descripcion)>
+    <!ATTLIST vehiculo modelo ID #REQUIRED>
+    <!ATTLIST vehiculo modelos_relacionados IDREFS #IMPLIED>
+    <!ELEMENT descripcion (#PCDATA|motor|potencia|consumo_medio)*>
+    <!ELEMENT motor (#PCDATA)>
+    <!ATTLIST motor motor_relacionado_con_modelo IDREF #IMPLIED>
+    <!ELEMENT potencia (#PCDATA)>
+    <!ELEMENT consumo_medio (#PCDATA)>
+]>
+<vehiculos>
+
+    <vehiculo modelo="v154">
+        <descripcion>No disponible</descripcion>
+    </vehiculo>
+
+    <vehiculo modelo="v444" modelos_relacionados="v555 v154">
+        <descripcion> Este modelo tiene un <motor motor_relacionado_con_modelo="v556">motor 2.000cc
+            16v. de cuatro cilindros</motor> con <potencia>128 CV</potencia>. Dispone de cambio
+            manual ... el consumo medio de este monovolumen es<consumo_medio> 11 a los 100 km</consumo_medio>.
+            El precio base es de 2.500.000. </descripcion>
+
+    </vehiculo>
+
+    <vehiculo modelo="v555" modelos_relacionados="v444 v556">
+        <descripcion> Este modelo tiene un <motor motor_relacionado_con_modelo="v556">motor 1.998cc
+            16v. de cuatro cilindros</motor>, que desarrolla una potencia de <potencia>128 CV</potencia>.
+            Dispone de cambio manual ... el consumo medio de este monovolumen es <consumo_medio>11 a
+            los 100 km</consumo_medio>. El precio base es de 2.225.000. </descripcion>
+    </vehiculo>
+
+    <vehiculo modelo="v556">
+        <descripcion>No disponible</descripcion>
+    </vehiculo>
+
+
+    <vehiculo modelo="v557">
+        <descripcion>No disponible</descripcion>
+    </vehiculo>
+
+
+</vehiculos>

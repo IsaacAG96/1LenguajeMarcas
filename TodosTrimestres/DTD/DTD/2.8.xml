@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contabilidad [
+    <!ELEMENT contabilidad (apunte*)>
+    <!ELEMENT apunte ((ingreso? | gasto?),fecha,cantidad,concepto)>
+    <!ELEMENT ingreso EMPTY>
+    <!ELEMENT gasto EMPTY>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT concepto (#PCDATA)>
+]>
+
+<contabilidad>
+    <apunte>
+        <ingreso />
+        <fecha>24 de febrero de 2011</fecha>
+        <cantidad>1800,00 € </cantidad>
+        <concepto>Salario</concepto>
+    </apunte>
+
+    <apunte>
+        <gasto />
+        <fecha>28 de febrero de 2011</fecha>
+        <cantidad>74,25 € </cantidad>
+        <concepto>Recibo luz</concepto>
+    </apunte>
+</contabilidad>
+
+<!-- Es apunte en lugar de contabilidad, y declararlo correctamente y 
+tambien falta declarar contabilidad,tambien falta declarar ingreso y gasto como EMPTY-->

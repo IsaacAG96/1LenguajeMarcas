@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XSDdeLibros.xml"
+    precio="25.50">
+
+    <titulo>La dura es vida</titulo>
+
+    <autores>Pepei</autores>
+    <autores>Pepepo</autores>
+    <autores>Pepepi</autores>
+    <autores>Pepp</autores>
+    <autores>Pepw</autores>
+    <autores>Pepa</autores>
+    <autores>Pepu</autores>
+    <autores>Pepi</autores>
+    <autores>Pee</autores>
+    <autores>Pepo</autores>
+
+    <editorial>Editorial Paprie</editorial>
+
+
+</libro>

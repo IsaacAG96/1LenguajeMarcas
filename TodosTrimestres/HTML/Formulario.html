@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<HTML lang="es">
+
+<HEAD>Formulario<br><br>
+    <META charset="UTF+8">
+    <TITLE>Formulario</TITLE>
+</HEAD>
+
+
+<BODY>
+  
+<form action="www.meinventoestawebjpg.es" method="get"
+ enctype="text/plain" name="formulario1" autocomplete="off"
+  novalidate="off">
+<h3><p>Formulario Nombre Apellido con GET con URL correcta</p></h3>
+  <p>Nombre: <input type="text" name="nombre1"></p>
+  <p>Primer apellido: <input type="text" name="apellido1.1"></p>
+  <p>Segundo apellido: <input type="text" name="apellido1.2" ></p>
+  <input type="submit" value="enviar GET no funciona">
+
+
+
+</form>
+
+<form action="http://servidorwebclara.ga" method="get" 
+enctype="text/plain" name="formulario2" autocomplete="off"
+novalidate="off">
+    <h3><p>Formulario Nombre Apellido con GET con URL correcta</p></h3>
+    <p>Nombre:<input type="text" name="nombre2"></p>
+    <p>Primer apellido<input type="text" name="apellido2.1"></p>
+    <p>Segundo apellido<input type="text" name="apellido2.2"></p>
+    <input type="submit" value="enviar GET funciona">
+</form>
+
+<form action="www.meinventoestawebjpg.es" method="post"
+ enctype="text/plain" name="formulario3" autocomplete="off"
+ novalidate="off">
+
+<h3><p>Formulario Nombre Apellido con POST sin URL correcta</p></h3>
+<p>Nombre:<input type="text" name="nombre3"></p>
+<p>Primer apellido<input type="text" name="apellido3.1"></p>
+<p>Segundo apellido<input type="text" name="apellido3.2"></p>
+<input type="submit" value="enviar POST no funciona">
+</form>
+
+<form action="http://servidorwebclara.ga" method="form"
+enctype="text/plain" name="formulario4" autocomplete="off"
+novalidate="off">
+<p><h3>Formulario Nombre Apellido con POST con URL correcta</h3></p>
+<p>Nombre:<input type="text" name="nombre4"></p>
+<p>Primer apellido:<input type="text" name="apellido 4.1"></p>
+<p>Segundo apellido:<input type="text" name="apellido 4.2"></p>
+<input type="submit" value="enviar POST funciona">
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</BODY>
+
+
+
+</HTML>

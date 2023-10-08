@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="articulos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="articulo" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence><!--SALIA FALLO COMO QUE NO ESTABA CERRADO(AUNQUE LO ESTABA),AL COMPARAR CON LA SOLUCION ES EXACTAMENTE IGUAL Y LA SOLUCION NO FALLA -->
+              <xs:element name="nombre" type="xs:string"/>
+               <!-- <xs:simpleType></xs:simpleType>        NO ES NECESARIO ESPECIFICARLO--> 
+              <xs:element name="precio"> <!-- SOBRA EL TIPO?    type="xs:double"-->
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:decimal"> <!-- PORQUE HAY QUE HACER UNA EXTENSION??-->
+                      <xs:attribute name="moneda" type="xs:string"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element> <!-- El cierre debe estar despues de englobar todo lo que esta dentro de esa etiqueta-->
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>  

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogoLibros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XSDdeCatalogo.xml">
+
+    <libro categoria="ficcion" enstock="true" revisor="Paco">
+        <titulo>El curioso incidente</titulo>
+        <autor>Perico</autor>
+        <fecha>
+            <mes>5</mes>
+            <anyo>1950</anyo>
+        </fecha>
+        <ISBN>54123easgsae2</ISBN>
+        <editor></editor>
+    </libro>
+    
+</catalogoLibros>

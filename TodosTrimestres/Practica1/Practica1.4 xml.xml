@@ -1,0 +1,109 @@
+<arboles>
+    <arbol num_arbol="1">
+        <arbol_nombre>
+         Manzano latino
+        </arbol_nombre>
+
+        <caracteristicas>
+            <nombre_comun>
+             Manzano
+            </nombre_comun>
+            <hoja>
+             Caduca
+            </hoja>
+            <altura unidad_medida="metros">
+             6 
+            </altura>
+            <forma>
+                <copa>
+                 Esférica
+                </copa>
+                <tronco>
+                 Con bifurcaciones
+                </tronco>
+
+            </forma>
+            <color>
+                <haz>
+                 Verde
+                </haz>
+                <enves>
+                 Verde
+                </enves>
+            </color>
+        </caracteristicas>
+    </arbol>
+
+
+    <arbol num_arbol="2">
+        <arbol_nombre>
+         Olivo europeo
+        </arbol_nombre>
+
+        <caracteristicas>
+            <nombre_comun>
+             Olivo
+            </nombre_comun>
+            <hoja>
+             Perenne
+            </hoja>
+            <altura unidad_medida="metros">
+             8 
+            </altura>
+            <forma>
+                <copa>
+                 Irregular
+                </copa>
+                <tronco>
+                 Recto
+                </tronco>
+
+            </forma>
+            <color>
+                <haz>
+                 Verde oscuro
+                </haz>
+                <enves>
+                 Verde plateado
+                </enves>
+
+            </color>
+        </caracteristicas>
+    </arbol>
+
+    <arbol num_arbol="3">
+        <arbol_nombre>
+         Bonsai Segeretie
+        </arbol_nombre>
+
+        <caracteristicas>
+            <nombre_comun>
+             Bonsai
+            </nombre_comun>
+            <hoja>
+             Perenne
+            </hoja>
+            <altura unidad_medida="centímetros">
+             50
+            </altura>
+            <forma>
+                <copa>
+                 Circular
+                </copa>
+                <tronco>
+                 Recto
+                </tronco>
+
+            </forma>
+            <color>
+                <haz>
+                 Marrón
+                </haz>
+                <enves>
+                 Verde
+                </enves>
+
+            </color>
+        </caracteristicas>
+    </arbol>
+</arboles>

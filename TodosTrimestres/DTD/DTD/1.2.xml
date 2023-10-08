@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE letras [
+    <!ELEMENT letras (letra)>
+    <!ELEMENT letra (#PCDATA)>
+]>
+
+<letras>
+    <letra>m</letra>
+</letras>
+<!--Solo
+se ha declarado una etiquta para letra,por lo que se elimina una de las 2 que habia-->

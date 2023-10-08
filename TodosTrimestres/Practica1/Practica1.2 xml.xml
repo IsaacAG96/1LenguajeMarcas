@@ -1,0 +1,36 @@
+<mensaje>
+    <remite>
+        <nombre>        
+         Adrian Martin
+        </nombre>
+        <email>        
+         am@gmail.com
+        </email>
+    </remite>
+
+    <destinatario>
+        <nombre>
+         Elena Gomez
+        </nombre>
+        <email>
+         eg@hotmail.com
+        </email>
+    </destinatario>
+
+    <asunto>
+     Hola 
+    </asunto>
+    <texto>
+        <parrafo num_parrafo="1">
+         ¿Hola que tal?
+        </parrafo>
+
+        <parrafo num_parrafo="2">
+          Cuanto tiempo sin vernos, espero que pronto podamos quedar.
+        </parrafo>
+
+        <parrafo num_parrafo="3">
+         Un saludo. 
+        </parrafo>
+    </texto>
+</mensaje>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleado xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XSDdeEmpleado.xml">
+
+    <telefono>
+        <prefijo>+34</prefijo>
+        <numero>666665444</numero>
+    </telefono>
+    <telefono>
+        <prefijo>+34</prefijo>
+        <numero>666665444</numero>
+    </telefono>
+    <mes>12</mes><!-- Numerico-->
+    <turno>Mañana</turno><!-- Puede ser mañana o tarde-->
+    <id numero_id="5" />
+
+
+    <familia><!-- Puede estar o no-->
+
+        <familiar>Manoli</familiar>
+        <familiar>Luisa</familiar>
+
+    </familia>
+
+    <edad>99</edad><!-- Pudede estar o no,Minimo 0 maximo 99-->
+
+
+</empleado>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbol [
+    <!ELEMENT futbol (jugador*)>
+    <!ELEMENT jugador EMPTY>
+    <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+    <!ATTLIST jugador codigo ID #REQUIRED>
+]>
+
+<futbol>
+    <jugador nombre="Alfredo DI Stéfano" codigo="ADS" />
+    <jugador nombre="Edson Arantes do Nascimento" codigo="EADNP" />
+    <jugador nombre="Diego Armando Maradona" codigo="DAM" />
+    <jugador nombre="Johan Cruyff" codigo="JC" />
+</futbol>
+
+<!-- El codigo ID tiene que ser letras,no numeros.Ademas no puede haber ninguna coma en el nombre-->

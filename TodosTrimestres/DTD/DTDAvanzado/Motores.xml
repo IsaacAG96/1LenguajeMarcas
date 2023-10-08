@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Motores [
+]>
+
+<vehiculo>
+    <modelo>556</modelo>
+    <modelos_relacionados />
+    <descripcion>No disponible</descripcion>
+    <motor_relacionado_con_modelo />
+</vehiculo>

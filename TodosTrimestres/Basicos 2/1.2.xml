@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<libros>
+    <libro id="quijote">
+        <titulo>El Quijote</titulo>
+        <autor nombre="cervantes">
+        <descripcion>Es el mejor libro de cervantes.</descripcion>
+    </libro>
+</Libros> 
+
+atributo nombre mal escrito y duplicado.
+mejor mal escrito
+etiqueta libro mal cerrada

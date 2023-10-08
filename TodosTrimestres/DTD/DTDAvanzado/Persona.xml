@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+    <!ELEMENT personas (persona)*>
+    <!ELEMENT persona (nombre,nacimiento,direccion,genero)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT nacimiento EMPTY>
+    <!ATTLIST nacimiento dia NMTOKEN #FIXED "10">
+    <!ATTLIST nacimiento mes NMTOKEN #FIXED "Abril">
+    <!ATTLIST nacimiento anyo NMTOKEN #FIXED "1982">
+
+    <!ELEMENT direccion (calle,poblacion,provincia,cpostal)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT poblacion (#PCDATA)>
+    <!ELEMENT provincia (#PCDATA)>
+    <!ELEMENT cpostal (#PCDATA)>
+    <!ELEMENT genero EMPTY>
+    <!ATTLIST genero sexo NMTOKEN (masculino|femenino) #REQUIRED>
+]>
+
+<persona>
+    <nombre>Juan Pardo</nombre>
+    <nacimiento />
+    <direccion>
+        <calle>caoba, 1</calle>
+        <poblacion>Madrid</poblacion>
+        <provincia>Madrid</provincia>
+        <cpostal>28005</cpostal>
+    </direccion>
+    <genero />
+
+</persona>
+
+
+<!-- Este ejercicio no se ha corregido ni realizado en clase-->

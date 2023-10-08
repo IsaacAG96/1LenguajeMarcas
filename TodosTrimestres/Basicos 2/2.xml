@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<factura num_factura="999">
+
+    <datos_vendedor>
+        <empresa>Equipos Digitales S.L.</empresa>
+        <direccion>Av. Valladolid </direccion>
+        <provincia>Madrid</provincia>
+        <cod_postal>28015</cod_postal>
+        <cif>Q-9876543</cif>
+        <telefono>91.777.66.88 </telefono>
+        <fax>91.777.66.99 </fax>    
+    </datos_vendedor>
+
+    <datos_envio>
+        <fecha>12-01-2005 </fecha>
+        <pedido>731</pedido>
+        <forma_de_pago>EFECTIVO</forma_de_pago>   
+        </datos_envio>
+
+    <datos_cliente>
+        <nombre>Darío Bueno Gutiérrez</nombre>
+        <direccion_de_envio>Av. Oporto nº7 4ºd</direccion_de_envio>
+        <poblacion>Madrid<poblacion>
+        <cod_postal>28043<cod_postal>
+        <provincia>Madrid</provincia>
+    </datos_cliente>
+
+    <datos_factura>
+        <pedido num_pedido="1">
+            <referencia>MII93000F/8</referencia>
+            <descripcion>MICRO PENTIUM IV 3000MHZ FB800</descripcion>
+            <cantidad>1</cantidad>
+            <precio moneda="euro">230</precio>
+            <iva>16</iva>
+            <importe moneda="euro">266,80</importe>
+
+        </pedido>
+
+          <pedido num_pedido="2">
+            <referencia>MB8QDIP4</referencia>
+            <descripcion>PLACA BASE QDI P4</descripcion>
+            <cantidad>1</cantidad>
+            <precio moneda="euro">180 </precio>
+            <iva>16</iva>
+            <importe moneda="euro">208,80</importe>
+
+        </pedido>
+
+        <pedido num_pedido="3">
+            <referencia>MEDD512M32 </referencia>
+            <descripcion>DIMM DDR 512MB 3200</descripcion>
+            <cantidad>2</cantidad>
+            <precio moneda="euro">40</precio>
+            <iva>16</iva>
+            <importe moneda="euro">92,80</importe>
+
+        </pedido>
+
+          <pedido num_pedido="4">
+            <referencia>HD250GSA7</referencia>
+            <descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
+            <cantidad>4</cantidad>
+            <precio moneda="euro">120</precio>
+            <iva>16</iva>
+            <importe moneda="euro">556,80</importe>
+
+        </pedido>  
+
+        <base_imponible moneda="euro">970</base_imponible>   
+
+        <iva>16</iva>
+
+        <cuota_iva moneda="euro">155,20</cuota_iva>
+
+    </datos_factura>
+    
+    <total_factura moneda="euro">1125,20</total_factura>
+
+</factura>

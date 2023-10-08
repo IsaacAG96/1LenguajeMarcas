@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descripcion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Ejer4.xsd">Una montaña es una forma topográfica del relieve
+    terrestre positiva, una eminencia natural que se caracteriza por su <caracteristica>
+    altitud</caracteristica>
+    y, más generalmente, por su <caracteristica>altura relativa</caracteristica>, o incluso por su <caracteristica>volumen</caracteristica>
+    , <caracteristica>pendiente</caracteristica>, espaciado o continuidad.
+ </descripcion>

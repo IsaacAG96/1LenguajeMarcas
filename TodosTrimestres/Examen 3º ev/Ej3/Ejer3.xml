@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listado_coches [
+    <!ELEMENT listado_coches (coche)*>
+
+        <!ELEMENT coche (marca,modelo,propulsion,nota?)*>
+            <!ATTLIST coche matricula NMTOKEN ID #REQUIRED>
+
+        <!ELEMENT marca (#PCDATA)>
+
+        <!ELEMENT modelo (#PCDATA)>
+
+        <!ELEMENT propulsion (#PCDATA)>
+
+        <!ELEMENT nota (#PCDATA)>
+]>
+<!--anyadir
+DTD-->
+<listado_coches>
+    <coche matricula="ABCD123">
+        <marca>bmw</marca>
+        <modelo>serie1</modelo>
+        <propulsion>gasolina</propulsion>
+        <nota>seminuevo</nota>
+    </coche>
+    <coche matricula="BCDE234">
+        <marca>mercedes</marca>
+        <modelo>a1</modelo>
+        <propulsion>diesel</propulsion>
+    </coche>
+    <coche matricula="DCBA321">
+        <marca>toyota</marca>
+        <modelo>pryus</modelo>
+        <propulsion>hibrido</propulsion>
+    </coche>
+</listado_coches>

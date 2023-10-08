@@ -1,0 +1,60 @@
+<catalogo>
+    <producto num_producto="1">
+        <nombre>
+         Manzana
+        </nombre>
+
+        <precio moneda="$">
+         1
+        </precio>
+
+        <descripcion>
+         Fuji
+        </descripcion>
+
+        <calorias>
+         90
+        </calorias>
+
+    </producto>
+
+    <producto num_producto="2">
+        <nombre>
+         Pera
+        </nombre>
+
+        <precio moneda="€">
+         2
+        </precio>
+
+        <descripcion>
+         Alicantina
+        </descripcion>
+
+        <calorias>
+         100
+        </calorias>
+
+    </producto>
+
+
+    <producto num_producto="3">
+
+        <nombre>
+         Lechuga
+        </nombre>
+
+        <precio moneda="$">
+         3
+        </precio>
+
+        <descripcion>
+         Iceberg
+        </descripcion>
+
+        <calorias>
+         50
+        </calorias>
+
+    </producto>
+</catalogo>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PurchaseOrder xmlns="http://tempuri.org/PurchaseOrderSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="XSD1.xml"
+    OrderDate="2001-08-03">
+
+    <ShipTo>
+        <name>Paquito</name>
+        <street>Calle Falsa</street>
+        <city>Ciudad Falsa</city>
+        <state>Nuevo Falso Estado</state>
+        <zip>6660666</zip>
+    </ShipTo>
+
+    <ShipTo>
+        <name>Paquito</name>
+        <street>Calle Falsa</street>
+        <city>Ciudad Falsa</city>
+        <state>Nuevo Falso Estado</state>
+        <zip>6660666</zip>
+    </ShipTo>
+
+    <BillTo>
+        <name>Paquito</name>
+        <street>Calle Falsa</street>
+        <city>Ciudad Falsa</city>
+        <state>Nuevo Falso Estado</state>
+        <zip>6660666</zip>
+    </BillTo>
+
+</PurchaseOrder>
